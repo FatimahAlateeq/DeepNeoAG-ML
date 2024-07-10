@@ -47,7 +47,9 @@ python get_dataset.py -in "Your data feature Folder" -out "The destination folde
 ```
 Alternative example:
 ```bash
-python get_dataset.py -in ../Data/Train -out ./Train -dt .prottrans -maxseq 800
+python get_dataset.py -in ../Data/Train -out ./Train -dt .prottrans -maxseq 800 #prottrans
+python get_dataset.py -in ../Data/Train -out ./Train -dt .esm -maxseq 800 #esm
+python get_dataset.py -in ../Data/Train -out ./Train -dt .npy -maxseq 800 #tape
 ```
 
 ### Step 3: Execute Prediction
