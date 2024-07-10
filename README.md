@@ -8,19 +8,11 @@ Neoantigens, derived from tumor-specific mutations, play a crucial role in elici
 
 ## Dataset <a name="Dataset"></a>
 
-| Dataset                                        | Epitope Sequence          | Remove Similarity < 30% | Length <35            |
-|------------------------------------------------|---------------------------|-------------------------|-----------------------| 
-| Neoantigen                                     | 671                       | 303                     | 302                   | 
-| Viral antigen<br>Germline/ Self/ Host antigen  | 32206                     | 6716                    | 6710                  | 
-| Total                                          | 32877                     | 7019                    | 7012                  |
-
-
-| Dataset                                        | Training Data (80%)       | Testing Data (20%)      |
-|------------------------------------------------|---------------------------|-------------------------|
-| Neoantigen                                     | 241                       | 61                      |
-| Viral antigen<br>Germline/ Self/ Host antigen  | 5367                      | 1343                    |
-| Total                                          | 5608                      | 1404                    |
-
+| Dataset                                        | Epitope Sequence          | Remove Similarity < 30% | Length <35            | Training Data (80%)       | Testing Data (20%)      |
+|------------------------------------------------|---------------------------|-------------------------|-----------------------|---------------------------|-------------------------|
+| Neoantigen                                     | 671                       | 303                     | 302                   | 241                       | 61                      | 
+| Viral antigen<br>Germline/ Self/ Host antigen  | 32206                     | 6716                    | 6710                  | 5367                      | 1343                    |
+| Total                                          | 32877                     | 7019                    | 7012                  | 5608                      | 1404                    |
 
 ## Quick start <a name="quickstart"></a>
 
@@ -52,9 +44,9 @@ python get_dataset.py -in "Your data feature Folder" -out "The destination folde
 ```
 Alternative example:
 ```bash
-python get_dataset.py -in ../Data/Train -out ./Train -dt .prottrans -maxseq 800 #prottrans
-python get_dataset.py -in ../Data/Train -out ./Train -dt .esm -maxseq 800 #esm
-python get_dataset.py -in ../Data/Train -out ./Train -dt .npy -maxseq 800 #tape
+python get_dataset.py -in ../Data/Train -out ./Train -dt .prottrans -maxseq 35 #prottrans
+python get_dataset.py -in ../Data/Train -out ./Train -dt .esm -maxseq 35 #esm
+python get_dataset.py -in ../Data/Train -out ./Train -dt .npy -maxseq 35 #tape
 ```
 
 ### Step 3: Execute Prediction
