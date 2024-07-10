@@ -11,8 +11,7 @@ Neoantigens, derived from tumor-specific mutations, play a crucial role in elici
 | Dataset                             | Epitope Sequence          | Remove Similarity < 30% | Length <35            |
 |-------------------------------------|---------------------------|-------------------------|-----------------------| 
 | Neoantigen                          | 671                       | 303                     | 302                   | 
-| Viral antigen                       | 32206                     | 6716                    | 6710                  | 
-  Germline/ Self/ Host antigen                       
+| Viral antigen<br>Germline/ Self/ Host antigen                       | 32206                     | 6716                    | 6710                  | 
 | Total                               | 32877                     | 7019                    | 7012                  |
 
 
