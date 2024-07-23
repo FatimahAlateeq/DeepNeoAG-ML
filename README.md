@@ -1,4 +1,4 @@
-# DeepNAME: Neoantigen Epitope Prediction from Melanoma Antigens Using a Synergistic Deep Learning Model Combining Protein Language Models and Multi-Window Scanning Convolutional Neural Networks
+# DeeNeoAG: Neoantigen Epitope Prediction from Melanoma Antigens Using a Synergistic Deep Learning Model Combining Protein Language Models and Multi-Window Scanning Convolutional Neural Networks
 Cheng-Che Chuang, Yu-Chen Liu, Yu-Yen Ou
 
 ## Abstract <a name="abstract"></a>
