@@ -5,7 +5,7 @@ Cheng-Che Chuang, Yu-Chen Liu, Yu-Yen Ou
 Neoantigens, derived from tumor-specific mutations, play a crucial role in eliciting anti-tumor immune responses and have emerged as promising targets for personalized cancer immunotherapy. Accurately identifying neoantigens from a vast pool of potential candidates is crucial for developing effective therapeutic strategies. This study presents a novel deep learning model that leverages the power of protein language models (PLMs) and multi-window scanning convolutional neural networks (CNNs) to predict neoantigens from normal tumor antigens with high accuracy. In this study, we present DeepName, a novel framwork combines the global sequence-level information captured by a pre-trained PLM with the local structural features extracted by a multi-window scanning CNN, enabling a comprehensive representation of the protein's mutational landscape. We demonstrate the superior performance of DeepName compared to existing methods and highlight its potential to accelerate the development of personalized cancer immunotherapies.
 <br>
 
-![workflow](https://github.com/B1607/DeepNeoAG/blob/0c30a2ba1b9357d52766d6402e68b507441c4fa1/figure/flowchart.png)
+![workflow](https://github.com/B1607/DeepNeoAG/blob/f6085198d2cf4fffdca6564889b569e410b537ae/figure/figure_neo.png)
 
 ## Dataset <a name="Dataset"></a>
 
