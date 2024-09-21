@@ -12,7 +12,7 @@ Neoantigens, derived from tumor-specific mutations, play a crucial role in elici
 | Dataset                                        | Epitope Sequence          | Remove Similarity < 30% | Length <35            | Training Data (80%)       | Testing Data (20%)      |
 |------------------------------------------------|---------------------------|-------------------------|-----------------------|---------------------------|-------------------------|
 | Neoantigen                                     | 671                       | 303                     | 302                   | 241                       | 61                      | 
-| Other                                          | 32206                     | 6716                    | 6710                  | 5367                      | 1343                    |
+| Other                                          | 32206                     | 6717                    | 6710                  | 5367                      | 1343                    |
 | Total                                          | 32877                     | 7019                    | 7012                  | 5608                      | 1404                    |
 
 | Testing Data                                   | MHC I                     | MHC II                  |
